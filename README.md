@@ -1,6 +1,23 @@
 This is a project to extract 2FA codes from emails from Bambu Labs to share with a wider team over discord
 
+Initially created by Max for use at the Cambridge Hackspace
+
+---
+
 To use this on your system you must change run.sh to have the correct PROJECT_DIR
+
+---
+
+You will also need to setup a .env file with your keys:
+
+**Needed Vars**
+
+EMAIL_USER
+EMAIL_PASS
+EMAIL_URL (imap.gmail.com) <- If your using gmail
+DISCORD_WEBHOOK_URL
+
+---
 
 Additionally you must create a systemd service and a systemd timer
 
