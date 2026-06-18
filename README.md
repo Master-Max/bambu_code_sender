@@ -8,7 +8,9 @@ Example Service and Timer Below
 
 ---
 
-bambu-code-sender.service
+**bambu-code-sender.service**
+
+
 [Unit]
 Description=Bambu Code Sender
 
@@ -21,7 +23,9 @@ Group=mx
 
 ---
 
-bambu-code-sender.timer
+**bambu-code-sender.timer**
+
+
 [Unit]
 Description=Run Bambu Code Sender every 10 seconds
 
