@@ -13,8 +13,11 @@ You will also need to setup a .env file with your keys:
 **Needed Vars**
 
 EMAIL_USER
+
 EMAIL_PASS
+
 EMAIL_URL (imap.gmail.com) <- If your using gmail
+
 DISCORD_WEBHOOK_URL
 
 ---
